@@ -1,0 +1,8 @@
+# Create a folder for shell-backup
+mkdir shell-backup
+
+# Copy all the .sh files to shell-backup
+cp *.sh shell-backup/
+
+# Use the tar command to compress the folder shell-backup to shell-backup.tar
+tar -cf shell-backup.tar shell-backup
